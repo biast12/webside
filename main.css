@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: auto;
+  width: 1080px;
+  height: 3000px;
+  border: 1px solid red;
+  background-color: black;
+}
+
+#Portfolio {
+  color: white;
+  float: left;
+  font-size: 25px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+}
+
+#About {
+  
+  color: white;
+  float: left;
+  font-size: 25px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 17px;
+}
+
+spanPortfolio {
+    height: 4px;
+    width: 8%;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+}
+
+spanAbout {
+    height: 4px;
+    width: 5%;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 17px;
+}
+#BlackBox {
+  width: auto;
+  height: auto;
+  float: left;
+  position: absolute;
+  border-right: 1px solid gray;
+  top: 9px;
+}
+
+#HomeImage {
+  width: 1080px;
+  height: auto;
+  float: center;
+  position: absolute;
+  border-bottom: 1px solid gray;
+  top: 9px;
+}
