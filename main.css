@@ -119,27 +119,33 @@ spanAbout {
 }
 
 .image {
-  width: 55%;
-  height: 150px;
+  width: 1080px;
+  margin-top: 0;
   color: white;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 2px 2px red;
   margin-left: 0px;
   margin-right: 0px;
+  text-align: center;
 }
 
 article {
-  margin-top: 444px;
+  margin-top: 557px;
+}
+
+div main article section h3:hover {
+  color: red;
+  text-shadow: 2px 2px #ffffff80;
 }
 
 article section figure {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
 }
 
 #image1 {
   width: 593px;
+  float: left;
 }
 
 #image1:hover {
@@ -151,7 +157,7 @@ article section figure {
 
 #image2 {
   width: 593px;
-  margin-top: 112px;
+  float: right;
 }
 
 #image2:hover {
@@ -159,44 +165,58 @@ article section figure {
   display: inline;
   text-align: center;
   float: right !important;
-  margin-top: 112px;
   width: 1080px;
 }
 
 #image3 {
   width: 593px;
-  margin-top: 225px;
+  float: left;
 }
 
 #image3:hover {
   position: relative;
   display: inline;
   text-align: center;
-  margin-top: 225px;
   width: 1080px;
 }
 
 #image4 {
   width: 593px;
-  margin-top: 365px;
+  float: right;
 }
 
 #image4:hover {
   position: relative;
   display: inline;
   text-align: center;
-  margin-top: 365px;
   width: 1080px;
 }
 
-div main article section h3 {
-  color: white;
-  text-shadow: 2px 2px #ff000080;
+.text1 {
+  margin-top: 95px;
+  margin-bottom: 0;
+  margin-left: 150px;
+  display: inline;
+  position: absolute;
 }
-
-div main article section h3:hover {
-  color: red;
-  text-shadow: 2px 2px #ffffff80;
+.text2 {
+  margin-top: 95px;
+  margin-bottom: 0;
+  margin-left: 90px;
+  position: absolute;
+}
+.text3 {
+  margin-top: 140px;
+  margin-bottom: 0;
+  margin-left: 140px;
+  display: inline;
+  position: absolute;
+}
+.text4 {
+  margin-top: 125px;
+  margin-bottom: 0;
+  margin-left: 30px;
+  position: absolute;
 }
 
 .animationImage {
