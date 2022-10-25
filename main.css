@@ -69,3 +69,43 @@ spanAbout {
   border-bottom: 1px solid gray;
   top: 9px;
 }
+
+#MyLogo {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  margin-left: 448px;
+  top: 9px;
+}
+
+#TwitterLogo {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  margin-left: 406px;
+  top: 5px;
+}
+
+#PaypalLogo {
+  width: 35px;
+  height: auto;
+  position: absolute;
+  margin-left: 370px;
+  top: 13px;
+}
+
+#GithubLogo {
+  width: 35px;
+  height: auto;
+  position: absolute;
+  margin-left: 330px;
+  top: 12px;
+}
+
+#LinkedinLogo {
+  width: 35px;
+  height: auto;
+  position: absolute;
+  margin-left: 290px;
+  top: 12px;
+}
