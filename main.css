@@ -109,3 +109,112 @@ spanAbout {
   margin-left: 290px;
   top: 12px;
 }
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.image {
+  width: 55%;
+  height: 150px;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px red;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+article {
+  margin-top: 444px;
+}
+
+article section figure {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#image1 {
+  width: 593px;
+}
+
+#image1:hover {
+  position: relative;
+  display: inline;
+  text-align: center;
+  width: 1080px;
+}
+
+#image2 {
+  width: 593px;
+  margin-top: 112px;
+}
+
+#image2:hover {
+  position: relative;
+  display: inline;
+  text-align: center;
+  float: right !important;
+  margin-top: 112px;
+  width: 1080px;
+}
+
+#image3 {
+  width: 593px;
+  margin-top: 225px;
+}
+
+#image3:hover {
+  position: relative;
+  display: inline;
+  text-align: center;
+  margin-top: 225px;
+  width: 1080px;
+}
+
+#image4 {
+  width: 593px;
+  margin-top: 365px;
+}
+
+#image4:hover {
+  position: relative;
+  display: inline;
+  text-align: center;
+  margin-top: 365px;
+  width: 1080px;
+}
+
+div main article section h3 {
+  color: white;
+  text-shadow: 2px 2px #ff000080;
+}
+
+div main article section h3:hover {
+  color: red;
+  text-shadow: 2px 2px #ffffff80;
+}
+
+.animationImage {
+  animation: scaling-image-animation 3s ease;
+}
+
+@keyframes scaling-image-animation {
+  0% {
+    transform: scale(0.1);
+    opacity: 0.8;
+    filter: contrast(0.1);
+  }
+  100% {
+    transform: scale(0.5);
+    filter: contrast(0.5);
+  }
+  100% {
+    transform: scale(1);
+    filter: contrast(1);
+  }
+}
