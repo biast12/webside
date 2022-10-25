@@ -18,18 +18,17 @@ body {
   color: white;
   float: left;
   font-size: 25px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: bold;
   text-decoration: none;
   position: absolute;
 }
 
 #About {
-  
   color: white;
   float: left;
   font-size: 25px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: bold;
   text-decoration: none;
   position: absolute;
@@ -37,21 +36,22 @@ body {
 }
 
 spanPortfolio {
-    height: 4px;
-    width: 8%;
-    background-color: white;
-    border-radius: 100px;
-    position: absolute;
+  height: 4px;
+  width: 150px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
 }
 
 spanAbout {
-    height: 4px;
-    width: 5%;
-    background-color: white;
-    border-radius: 100px;
-    position: absolute;
-    margin-top: 17px;
+  height: 4px;
+  width: 95px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 17px;
 }
+
 #BlackBox {
   width: auto;
   height: auto;
