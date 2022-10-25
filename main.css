@@ -121,10 +121,6 @@ spanAbout {
 .image {
   width: 1080px;
   margin-top: 0;
-  color: white;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 2px 2px red;
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
@@ -134,7 +130,14 @@ article {
   margin-top: 557px;
 }
 
-div main article section h3:hover {
+div main article section a {
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px #ff000080;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div main article section a h3:hover {
   color: red;
   text-shadow: 2px 2px #ffffff80;
 }
