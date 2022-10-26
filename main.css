@@ -8,16 +8,16 @@ body {
 
 .container {
   margin: auto;
-  width: 1080px;
-  height: 3813px;
+  width: 1350px;
+  height: 5380px;
   border: 1px solid red;
   background-color: black;
 }
 
 .containerabout {
   margin: auto;
-  width: 1080px;
-  height: 608px;
+  width: 1350px;
+  height: 759px;
   border: 1px solid red;
   background-color: black;
 }
@@ -25,7 +25,7 @@ body {
 #Portfolio {
   color: white;
   float: left;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Open Sans";
   font-weight: bold;
   text-decoration: none;
@@ -34,94 +34,79 @@ body {
 #About {
   color: white;
   float: left;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Open Sans";
   font-weight: bold;
   text-decoration: none;
   position: absolute;
-  margin-top: 17px;
+  margin-top: 20px;
 }
 
 spanPortfolio {
   height: 4px;
-  width: 150px;
+  width: 175px;
   background-color: white;
   border-radius: 100px;
   position: absolute;
 }
 spanAbout {
   height: 4px;
-  width: 95px;
+  width: 110px;
   background-color: white;
   border-radius: 100px;
   position: absolute;
-  margin-top: 17px;
+  margin-top: 20px;
 }
 
 #BlackBox {
   width: auto;
-  height: auto;
+  height: 759px;
   float: left;
   position: absolute;
   border-right: 1px solid gray;
   top: 9px;
 }
-#BlackBoxAbout {
-  width: auto;
-  height: 608px;
-  float: left;
-  position: absolute;
-  border-right: 1px solid gray;
-  top: 9px;
-}
+
 #HomeImage {
-  width: 1080px;
+  width: 1350px;
   height: auto;
-  float: center;
   position: absolute;
   border-bottom: 1px solid gray;
   top: 9px;
 }
-#HomeImageAbout {
-  width: 1080px;
-  height: auto;
-  float: center;
-  position: absolute;
-  top: 9px;
-}
 #MyLogo {
-  width: 40px;
-  height: auto;
-  position: absolute;
-  margin-left: 448px;
-  top: 9px;
-}
-#TwitterLogo {
   width: 50px;
   height: auto;
   position: absolute;
-  margin-left: 406px;
+  margin-left: 569px;
+  top: 9px;
+}
+#TwitterLogo {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  margin-left: 522px;
   top: 5px;
 }
 #PaypalLogo {
-  width: 35px;
+  width: 45px;
   height: auto;
   position: absolute;
-  margin-left: 370px;
+  margin-left: 483px;
   top: 13px;
 }
 #GithubLogo {
-  width: 35px;
+  width: 45px;
   height: auto;
   position: absolute;
-  margin-left: 330px;
+  margin-left: 436px;
   top: 12px;
 }
 #LinkedinLogo {
-  width: 35px;
+  width: 45px;
   height: auto;
   position: absolute;
-  margin-left: 290px;
+  margin-left: 386px;
   top: 12px;
 }
 
@@ -133,7 +118,7 @@ spanAbout {
 }
 
 .image {
-  width: 1080px;
+  width: 1350px;
   margin-top: 0;
   margin-left: 0px;
   margin-right: 0px;
@@ -141,48 +126,56 @@ spanAbout {
 }
 
 article {
-  margin-top: 557px;
+  margin-top: 708px;
 }
 
 div main article section a {
-  font-size: 30px;
+  font-size: 35px;
   color: white;
-  text-shadow: 2px 2px #ff000080;
+  text-shadow: 3px 3px #ff000080;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div main article section a h3:hover {
   color: red;
-  text-shadow: 2px 2px #ffffff80;
+  text-shadow: 3px 3px #ffffff80;
 }
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 45px;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   margin-top: 250px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   color: #d0144f;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   margin-top: 295px;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 #aboutname {
   margin-top: 40px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
 #MeImage {
-  width: 250px;
+  width: 280px;
   position: absolute;
-  margin-left: 80px;
+  margin-left: 130px;
   margin-top: 100px;
-  float: right;
 }
 
 #AboutMe {
@@ -191,8 +184,8 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
   font-style: bold;
-  font-size: 15px;
-  margin-top: 370px;
+  font-size: 18px;
+  margin-top: 420px;
   margin-left: 20px;
 }
 
@@ -201,18 +194,18 @@ article section figure {
 }
 
 #image1 {
-  width: 593px;
+  width: 863px;
   float: left;
 }
 #image1:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image2 {
-  width: 593px;
+  width: 863px;
   float: right;
 }
 #image2:hover {
@@ -220,125 +213,125 @@ article section figure {
   display: inline;
   text-align: center;
   float: right !important;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image3 {
-  width: 593px;
+  width: 863px;
   float: left;
 }
 #image3:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image4 {
-  width: 593px;
+  width: 863px;
   float: right;
 }
 #image4:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image5 {
-  width: 593px;
+  width: 863px;
   float: left;
 }
 #image5:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image6 {
-  width: 593px;
+  width: 863px;
   float: right;
 }
 #image6:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image7 {
-  width: 593px;
+  width: 863px;
   float: left;
 }
 #image7:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 #image8 {
-  width: 739px;
+  width: 1009px;
   float: right;
 }
 #image8:hover {
   position: relative;
   display: inline;
   text-align: center;
-  width: 1080px;
+  width: 1350px;
 }
 
 .text1 {
-  margin-top: 90px;
+  margin-top: 120px;
   margin-bottom: 0;
-  margin-left: 100px;
+  margin-left: 210px;
   display: inline;
   position: absolute;
 }
 .text2 {
-  margin-top: 90px;
+  margin-top: 120px;
   margin-bottom: 0;
-  margin-left: 60px;
+  margin-left: 25px;
   position: absolute;
 }
 .text3 {
-  margin-top: 120px;
+  margin-top: 180px;
   margin-bottom: 0;
-  margin-left: 100px;
+  margin-left: 210px;
   display: inline;
   position: absolute;
 }
 .text4 {
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 0;
-  margin-left: 40px;
+  margin-left: 10px;
   position: absolute;
 }
 .text5 {
-  margin-top: 120px;
+  margin-top: 150px;
   margin-bottom: 0;
-  margin-left: 100px;
+  margin-left: 220px;
   display: inline;
   position: absolute;
 }
 .text6 {
-  margin-top: 220px;
+  margin-top: 300px;
   margin-bottom: 0;
-  margin-left: 50px;
+  margin-left: 25px;
   position: absolute;
 }
 .text7 {
-  margin-top: 240px;
+  margin-top: 350px;
   margin-bottom: 0;
-  margin-left: 120px;
+  margin-left: 220px;
   display: inline;
   position: absolute;
 }
 .text8 {
-  margin-top: 160px;
+  margin-top: 200px;
   margin-bottom: 0;
-  margin-left: 40px;
+  margin-left: 20px;
   position: absolute;
 }
 
@@ -346,35 +339,40 @@ article section figure {
   width: 50px;
   height: auto;
   position: fixed;
-  left: 70px;
+  display: none;
+  left: 90px;
   bottom: 30px;
 }
 #TwitterLogoFooter {
   width: 60px;
   height: auto;
   position: fixed;
-  left: 70px;
+  display: none;
+  left: 90px;
   bottom: 75px;
 }
 #PaypalLogoFooter {
   width: 45px;
   height: auto;
   position: fixed;
-  left: 80px;
+  display: none;
+  left: 100px;
   bottom: 125px;
 }
 #GithubLogoFooter {
   width: 45px;
   height: auto;
   position: fixed;
-  left: 80px;
+  display: none;
+  left: 100px;
   bottom: 175px;
 }
 #LinkedinLogoFooter {
   width: 45px;
   height: auto;
   position: fixed;
-  left: 80px;
+  display: none;
+  left: 100px;
   bottom: 225px;
 }
 
@@ -383,14 +381,16 @@ article section figure {
   height: 7%;
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 48px;
+  bottom: 30px;
+  right: 60px;
   z-index: 99;
-  font-size: 15px;
+  font-size: 30px;
+  font-weight: bold;
   border: none;
   outline: none;
-  color: red;
-  background-color: white;
+  color: white;
+  background-color: black;
+  border: 1px solid red;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
