@@ -74,6 +74,12 @@ spanAbout {
   border-bottom: 1px solid gray;
   top: 9px;
 }
+#HomeImageAbout {
+  width: 1350px;
+  height: auto;
+  position: absolute;
+  top: 9px;
+}
 #MyLogo {
   width: 50px;
   height: auto;
