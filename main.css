@@ -408,6 +408,21 @@ footer {
   width: 100%;
 }
 
+#HomeImageMobile {
+  display: none;
+}
+
+#MeImageMobile {
+  display: none;
+}
+
+#AboutMeMobile {
+  display: none;
+}
+
+
+
+
 .animationImage {
   animation: scaling-image-animation 3s ease;
 }
