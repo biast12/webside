@@ -7,19 +7,21 @@ body {
 }
 
 .container {
-  margin: auto;
+  margin: auto !important;
   width: 1350px;
   height: 5380px;
   border: 1px solid red;
   background-color: black;
+  justify-content: center;
 }
 
 .containerabout {
-  margin: auto;
+  margin: auto !important;
   width: 1350px;
   height: 759px;
   border: 1px solid red;
   background-color: black;
+  justify-content: center;
 }
 
 #Portfolio {
@@ -175,7 +177,6 @@ h2 {
 .bold {
   font-weight: bold;
 }
-
 
 #MeImage {
   width: 280px;
@@ -407,27 +408,56 @@ article section figure {
   background-color: red;
 }
 
-footer {
+.Sidebars {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 20px;
   width: 100%;
 }
 
+.footercontainer {
+  margin: auto !important;
+  padding-top: 5px;
+  width: 1350px;
+  height: 122px;
+  border: 1px solid red;
+  border-top: 0;
+  background-color: black;
+}
+
+#stylebox {
+  float: left;
+}
+
+.style {
+  white-space: pre;
+  margin: 0px 5px 5px 5px;
+  padding: 2px 7px 7px 2px;
+  border: 0.1px dotted red;
+  border-radius: 5px;
+  display: block;
+}
+
+#credit {
+  color: white;
+  text-shadow: 3px 3px #ff000080;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 20px;
+  float: right;
+  margin-top: 40px;
+}
+
 #HomeImageMobile {
   display: none;
 }
-
 #MeImageMobile {
   display: none;
 }
-
 #AboutMeMobile {
   display: none;
 }
-
-
-
 
 .animationImage {
   animation: scaling-image-animation 3s ease;
