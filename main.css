@@ -8,6 +8,7 @@ body {
 
 .container {
   margin: auto !important;
+  resize: none;
   width: 1350px;
   height: 5380px;
   border: 1px solid red;
@@ -60,7 +61,7 @@ spanAbout {
   margin-top: 20px;
 }
 
-#BlackBox {
+#BlackBox, #BlackBoxIndex {
   width: auto;
   height: 759px;
   float: left;
@@ -82,35 +83,35 @@ spanAbout {
   position: absolute;
   top: 9px;
 }
-#MyLogo {
+#MyLogo, #MyLogoIndex {
   width: 50px;
   height: auto;
   position: absolute;
   margin-left: 569px;
   top: 9px;
 }
-#TwitterLogo {
+#TwitterLogo, #TwitterLogoIndex {
   width: 60px;
   height: auto;
   position: absolute;
   margin-left: 522px;
   top: 5px;
 }
-#PaypalLogo {
+#PaypalLogo, #PaypalLogoIndex {
   width: 45px;
   height: auto;
   position: absolute;
   margin-left: 483px;
   top: 13px;
 }
-#GithubLogo {
+#GithubLogo, #GithubLogoIndex {
   width: 45px;
   height: auto;
   position: absolute;
   margin-left: 436px;
   top: 12px;
 }
-#LinkedinLogo {
+#LinkedinLogo, #LinkedinLogoIndex {
   width: 45px;
   height: auto;
   position: absolute;
@@ -457,6 +458,140 @@ article section figure {
 }
 #AboutMeMobile {
   display: none;
+}
+
+
+@media (max-width: 1821px) {
+  #Sidebars {
+    display: none;
+  }
+}
+
+@media (max-width: 1335px) {
+  .text1 {
+    right: -100px;
+    margin-top: 90px;
+  }
+  .text3 {
+    right: -100px;
+  }
+  .text5 {
+    right: -100px;
+  }
+  .text7 {
+    right: -100px;
+  }
+}
+
+@media (max-width: 1328px) {
+  .text1 {
+    right: 0px;
+  }
+  .text3 {
+    right: 0px;
+  }
+  .text5 {
+    right: 0px;
+  }
+  .text7 {
+    right: 0px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .text1 {
+    right: -260px;
+  }
+  .text3 {
+    right: -260px;
+  }
+  .text5 {
+    right: -260px;
+  }
+  .text7 {
+    right: -260px;
+  }
+}
+
+@media (max-width: 1350px) {
+  #About, spanAbout, #HomeImage {
+    display: none;
+  }
+  #Portfolio, spanPortfolio {
+  font-size: 45px;
+  height: 6px;
+  width: 265px;
+  margin-top: 20px;
+  }
+  #HomeImageMobile, #MeImageMobile, #AboutMeMobile {
+    display: block;
+  }
+  #BlackBoxIndex {
+    height: 1550px;
+  }
+  #HomeImageMobile {
+    border-bottom: 1px solid gray;
+  }
+  #MyLogoIndex {
+    width: 110px;
+    right: -8px;
+    top: 9px;
+  }
+  #TwitterLogoIndex {
+    width: 130px;
+    right: 70px;
+    top: -5px;
+  }
+  #PaypalLogoIndex {
+    width: 90px;
+    right: 190px;
+    top: 20px;
+  }
+  #GithubLogoIndex {
+    width: 90px;
+    right: 290px;
+    top: 18px;
+  }
+  #LinkedinLogoIndex {
+    width: 90px;
+    right: 390px;
+    top: 20px;
+  }
+  h1 {
+    font-size: 55px;
+    top: 50px;
+    margin-left: 40px;
+  }
+  h2 {
+    font-size: 40px;
+    top: 58px;
+    margin-left: 40px;
+  }
+  #MeImageMobile {
+    width: 450px;
+    position: absolute;
+    margin-left: 45px;
+    top: 420px;
+  }
+  #AboutMeMobile {
+    position: absolute;
+    top: 900px;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    margin-left: 40px;
+  }
+  #figurespace {
+    margin: 0px;
+  }
+  #articlespace {
+    margin: 0px;
+  }
+  .container {
+    height: 7653px;
+  }
 }
 
 .animationImage {
