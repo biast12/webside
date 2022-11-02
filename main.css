@@ -4,16 +4,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  min-width: 720px;
 }
 
 .container {
   margin: auto !important;
   resize: none;
   width: 1350px;
-  height: 5380px;
   border: 1px solid red;
   background-color: black;
   justify-content: center;
+}
+
+#container {
+  height: 5380px;
 }
 
 .containerabout {
@@ -61,7 +65,8 @@ spanAbout {
   margin-top: 20px;
 }
 
-#BlackBox, #BlackBoxIndex {
+#BlackBox,
+#BlackBoxIndex {
   width: auto;
   height: 759px;
   float: left;
@@ -83,35 +88,40 @@ spanAbout {
   position: absolute;
   top: 9px;
 }
-#MyLogo, #MyLogoIndex {
+#MyLogo,
+#MyLogoIndex {
   width: 50px;
   height: auto;
   position: absolute;
   margin-left: 569px;
   top: 9px;
 }
-#TwitterLogo, #TwitterLogoIndex {
+#TwitterLogo,
+#TwitterLogoIndex {
   width: 60px;
   height: auto;
   position: absolute;
   margin-left: 522px;
   top: 5px;
 }
-#PaypalLogo, #PaypalLogoIndex {
+#PaypalLogo,
+#PaypalLogoIndex {
   width: 45px;
   height: auto;
   position: absolute;
   margin-left: 483px;
   top: 13px;
 }
-#GithubLogo, #GithubLogoIndex {
+#GithubLogo,
+#GithubLogoIndex {
   width: 45px;
   height: auto;
   position: absolute;
   margin-left: 436px;
   top: 12px;
 }
-#LinkedinLogo, #LinkedinLogoIndex {
+#LinkedinLogo,
+#LinkedinLogoIndex {
   width: 45px;
   height: auto;
   position: absolute;
@@ -290,53 +300,49 @@ article section figure {
   width: 1350px;
 }
 
-.text1 {
+#text1 {
   margin-top: 120px;
   margin-bottom: 0;
-  margin-left: 210px;
+  margin-right: 25px;
   display: inline;
-  position: absolute;
 }
-.text2 {
+#text2 {
   margin-top: 120px;
   margin-bottom: 0;
   margin-left: 25px;
   position: absolute;
 }
-.text3 {
+#text3 {
   margin-top: 180px;
   margin-bottom: 0;
-  margin-left: 210px;
+  margin-right: 25px;
   display: inline;
-  position: absolute;
 }
-.text4 {
+#text4 {
   margin-top: 150px;
   margin-bottom: 0;
   margin-left: 10px;
   position: absolute;
 }
-.text5 {
+#text5 {
   margin-top: 150px;
   margin-bottom: 0;
-  margin-left: 220px;
+  margin-right: 25px;
   display: inline;
-  position: absolute;
 }
-.text6 {
+#text6 {
   margin-top: 300px;
   margin-bottom: 0;
   margin-left: 25px;
   position: absolute;
 }
-.text7 {
+#text7 {
   margin-top: 350px;
   margin-bottom: 0;
-  margin-left: 220px;
+  margin-right: 25px;
   display: inline;
-  position: absolute;
 }
-.text8 {
+#text8 {
   margin-top: 200px;
   margin-bottom: 0;
   margin-left: 20px;
@@ -409,7 +415,7 @@ article section figure {
   background-color: red;
 }
 
-.Sidebars {
+#Sidebars {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -460,70 +466,28 @@ article section figure {
   display: none;
 }
 
-
 @media (max-width: 1821px) {
   #Sidebars {
     display: none;
   }
 }
 
-@media (max-width: 1335px) {
-  .text1 {
-    right: -100px;
-    margin-top: 90px;
-  }
-  .text3 {
-    right: -100px;
-  }
-  .text5 {
-    right: -100px;
-  }
-  .text7 {
-    right: -100px;
-  }
-}
-
-@media (max-width: 1328px) {
-  .text1 {
-    right: 0px;
-  }
-  .text3 {
-    right: 0px;
-  }
-  .text5 {
-    right: 0px;
-  }
-  .text7 {
-    right: 0px;
-  }
-}
-
-@media (max-width: 1080px) {
-  .text1 {
-    right: -260px;
-  }
-  .text3 {
-    right: -260px;
-  }
-  .text5 {
-    right: -260px;
-  }
-  .text7 {
-    right: -260px;
-  }
-}
-
-@media (max-width: 1350px) {
-  #About, spanAbout, #HomeImage {
+@media (max-width: 720px) {
+  #About,
+  spanAbout,
+  #HomeImage {
     display: none;
   }
-  #Portfolio, spanPortfolio {
-  font-size: 45px;
-  height: 6px;
-  width: 265px;
-  margin-top: 20px;
+  #Portfolio,
+  spanPortfolio {
+    font-size: 45px;
+    height: 6px;
+    width: 265px;
+    margin-top: 20px;
   }
-  #HomeImageMobile, #MeImageMobile, #AboutMeMobile {
+  #HomeImageMobile,
+  #MeImageMobile,
+  #AboutMeMobile {
     display: block;
   }
   #BlackBoxIndex {
@@ -534,38 +498,44 @@ article section figure {
   }
   #MyLogoIndex {
     width: 110px;
-    right: -8px;
+    right: -638px;
     top: 9px;
+    float: right;
   }
   #TwitterLogoIndex {
-    width: 130px;
-    right: 70px;
+    width: 140px;
+    right: -560px;
     top: -5px;
+    display: inline;
   }
   #PaypalLogoIndex {
     width: 90px;
-    right: 190px;
+    right: -430px;
     top: 20px;
+    display: inline;
   }
   #GithubLogoIndex {
     width: 90px;
-    right: 290px;
+    right: -325px;
     top: 18px;
+    display: inline;
   }
   #LinkedinLogoIndex {
     width: 90px;
-    right: 390px;
+    right: -220px;
     top: 20px;
   }
   h1 {
     font-size: 55px;
     top: 50px;
     margin-left: 40px;
+    width: 1000px;
   }
   h2 {
     font-size: 40px;
     top: 58px;
     margin-left: 40px;
+    width: 1000px;
   }
   #MeImageMobile {
     width: 450px;
@@ -580,8 +550,9 @@ article section figure {
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: bold;
-    font-size: 35px;
+    font-size: 37px;
     margin-left: 40px;
+    width: 140%;
   }
   #figurespace {
     margin: 0px;
