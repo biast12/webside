@@ -354,7 +354,7 @@ article section figure {
   height: auto;
   position: fixed;
   display: none;
-  left: 90px;
+  left: 190px;
   bottom: 30px;
 }
 #TwitterLogoFooter {
@@ -362,7 +362,7 @@ article section figure {
   height: auto;
   position: fixed;
   display: none;
-  left: 90px;
+  left: 190px;
   bottom: 75px;
 }
 #PaypalLogoFooter {
@@ -370,7 +370,7 @@ article section figure {
   height: auto;
   position: fixed;
   display: none;
-  left: 100px;
+  left: 200px;
   bottom: 125px;
 }
 #GithubLogoFooter {
@@ -378,7 +378,7 @@ article section figure {
   height: auto;
   position: fixed;
   display: none;
-  left: 100px;
+  left: 200px;
   bottom: 175px;
 }
 #LinkedinLogoFooter {
@@ -386,7 +386,7 @@ article section figure {
   height: auto;
   position: fixed;
   display: none;
-  left: 100px;
+  left: 200px;
   bottom: 225px;
 }
 
@@ -396,7 +396,7 @@ article section figure {
   display: none;
   position: fixed;
   bottom: 30px;
-  right: 60px;
+  right: 110px;
   z-index: 99;
   font-size: 30px;
   font-weight: bold;
