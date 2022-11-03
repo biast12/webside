@@ -496,34 +496,35 @@ article section figure {
   #HomeImageMobile {
     border-bottom: 1px solid gray;
   }
+  #Linkmenu {
+    float: right;
+    position: absolute;
+    justify-content: right;
+  }
   #MyLogoIndex {
     width: 110px;
-    right: -638px;
-    top: 9px;
-    float: right;
+    right: -1309px;
+    top: -51px;
   }
   #TwitterLogoIndex {
     width: 140px;
-    right: -560px;
-    top: -5px;
-    display: inline;
+    right: -1225px;
+    top: -70px;
   }
   #PaypalLogoIndex {
     width: 90px;
-    right: -430px;
-    top: 20px;
-    display: inline;
+    right: -1090px;
+    top: -40px;
   }
   #GithubLogoIndex {
     width: 90px;
-    right: -325px;
-    top: 18px;
-    display: inline;
+    right: -980px;
+    top: -42px;
   }
   #LinkedinLogoIndex {
     width: 90px;
-    right: -220px;
-    top: 20px;
+    right: -870px;
+    top: -40px;
   }
   h1 {
     font-size: 55px;
@@ -562,6 +563,12 @@ article section figure {
   }
   .container {
     height: 7653px;
+  }
+}
+
+@media (max-width: 454px) {
+  #AboutMeMobile {
+    width: 270%;
   }
 }
 
