@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Survivor: Countdown</title>
+    <link rel="icon" href="img/Survivor/Survivor_Icon.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="survivor.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <p id="text">Star Wars Survivor  <br />
+          Countdown: </p>
+        <p id="countdown"></p>
+      </main>
+</body>
+<script>
+  var countDownDate = new Date("March 17, 2023 00:00:00").getTime();
+
+  var x = setInterval(function() {
+
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "Star Wars Survivor is Released!!";
+    }
+  }, 1000);
+  </script>
+</html>
