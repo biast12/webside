@@ -10,14 +10,11 @@
   </head>
 
   <body>
+    <div class="bgclass" id="dynamic-bg"></div>
     <div class="containerabout">
       <nav>
         <div>
-          <img
-            id="HomeImageAbout"
-            src="img/loba_black_ninja_1.2.jpg"
-            alt="HomeImage"
-          />
+          <img id="HomeImageAbout" src="img/loba_black_ninja_1.2.jpg" alt="HomeImage" />
           <img id="BlackBox" src="img/blackbox.png" alt="BlackBox" />
           <ul>
             <li>
@@ -28,38 +25,11 @@
             <li>
               <a id="About" href="aboutme.html">ABOUT</a>
             </li>
-            <a href="https://bit.ly/337Cfw2">
-              <img
-                id="MyLogo"
-                src="img/icon/archive_logo_Notextbw.svg"
-                alt="MyLogo"
-            /></a>
-            <a href="Biast12">
-              <img
-                id="TwitterLogo"
-                src="img/icon/twitterlogo.png"
-                alt="TwitterLogo"
-            /></a>
-            <a
-              href="paypal"
-            >
-              <img
-                id="PaypalLogo"
-                src="img/icon/paypallogo.png"
-                alt="PaypalLogo"
-            /></a>
-            <a href="github">
-              <img
-                id="GithubLogo"
-                src="img/icon/githublogo.png"
-                alt="GithubLogo"
-            /></a>
-            <a href="linkedin">
-              <img
-                id="LinkedinLogo"
-                src="img/icon/linkedinlogo.png"
-                alt="LinkedinLogo"
-            /></a>
+            <a href="https://bit.ly/337Cfw2"> <img id="MyLogo" src="img/icon/archive_logo_Notextbw.svg" alt="MyLogo" /></a>
+            <a href="Biast12"> <img id="TwitterLogo" src="img/icon/twitterlogo.png" alt="TwitterLogo" /></a>
+            <a href="paypal"> <img id="PaypalLogo" src="img/icon/paypallogo.png" alt="PaypalLogo" /></a>
+            <a href="github"> <img id="GithubLogo" src="img/icon/githublogo.png" alt="GithubLogo" /></a>
+            <a href="linkedin"> <img id="LinkedinLogo" src="img/icon/linkedinlogo.png" alt="LinkedinLogo" /></a>
           </ul>
           <!--If you're reading this, then you're cute-->
           <h1 id="aboutname">Tobias Sloth Poulsen</h1>
@@ -69,9 +39,7 @@
           <p id="AboutMe">
             Hey there👋 I'm Tobias Sloth Poulsen (Biast12) ❤️<br />
             <br />
-            i'm a 3D & Multimedia Designer currently looking for a job,<br />i mostly
-            work on <span class="underline">Legion+</span> and maintaining the biggest Apex<br />Legends <span class="underline">assets
-            archive</span><br />
+            i'm a 3D & Multimedia Designer currently looking for a job,<br />i mostly work on <span class="underline">Legion+</span> and maintaining the biggest Apex<br />Legends <span class="underline">assets archive</span><br />
             <br />
             If you wanna contact me then Check out my Twitter <span class="underline">Biast12</span> or<br />
             <span class="underline">Biast12Private</span> or DM me on Discord <span class="bold">Biast12 (Tobias)#0001</span>
@@ -80,4 +48,8 @@
       </nav>
     </div>
   </body>
+  <script src="scripts/particles.js"></script>
+  <script>
+    particlesJS.load("dynamic-bg", "scripts/dynamic-bg.json");
+  </script>
 </html>

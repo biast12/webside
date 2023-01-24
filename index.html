@@ -171,15 +171,14 @@
     <footer class="footercontainer">
       <nav id="stylebox">
         <p class="style">Edit this to edit the css of the page</p>
-        <style class="style" contenteditable>
-          .style {
-            color: white;
-            background-color: black;
-          }
-        </style>
+        <style class="style" contenteditable>.style {
+  color: white;
+  background-color: black;
+}</style>
       </nav>
       <p id="credit">Made By: Tobias Sloth Poulsen / Biast12</p>
     </footer>
+    <div class="bgclass" id="dynamic-bg"></div>
     <script>
       const cont = document.getElementById("container");
       const styleb = document.getElementById("stylebox");
@@ -296,6 +295,10 @@
         credit.style.display = "block";
         cont.style.height = "5380px";
       });
+    </script>
+    <script src="scripts/particles.js"></script>
+    <script>
+      particlesJS.load("dynamic-bg", "scripts/dynamic-bg.json");
     </script>
   </body>
 </html>
