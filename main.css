@@ -7,7 +7,7 @@ body {
   min-width: 720px;
 }
 
-#dynamic-bg {
+#particlesjs {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -17,8 +17,9 @@ body {
   top: 0;
   left: 0;
   overflow: hidden;
-  position: absolute;
-  z-index: -1;
+  position: fixed;
+  pointer-events: initial;
+  z-index: 0;
 }
 
 .container {
@@ -28,6 +29,8 @@ body {
   border: 1px solid red;
   background-color: black;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 #container {
@@ -41,6 +44,8 @@ body {
   border: 1px solid red;
   background-color: black;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 #Portfolio {
@@ -86,7 +91,7 @@ spanAbout {
   float: left;
   position: absolute;
   border-right: 1px solid gray;
-  top: 9px;
+  top: 0;
 }
 
 #HomeImage {
@@ -94,21 +99,22 @@ spanAbout {
   height: auto;
   position: absolute;
   border-bottom: 1px solid gray;
-  top: 9px;
+  top: 0;
 }
 #HomeImageAbout {
   width: 1350px;
   height: auto;
   position: absolute;
-  top: 9px;
+  top: 0;
 }
+
 #MyLogo,
 #MyLogoIndex {
   width: 50px;
   height: auto;
   position: absolute;
   margin-left: 569px;
-  top: 9px;
+  top: 0;
 }
 #TwitterLogo,
 #TwitterLogoIndex {
@@ -116,7 +122,7 @@ spanAbout {
   height: auto;
   position: absolute;
   margin-left: 522px;
-  top: 5px;
+  top: -4px;
 }
 #PaypalLogo,
 #PaypalLogoIndex {
@@ -124,7 +130,7 @@ spanAbout {
   height: auto;
   position: absolute;
   margin-left: 483px;
-  top: 13px;
+  top: 4px;
 }
 #GithubLogo,
 #GithubLogoIndex {
@@ -132,7 +138,7 @@ spanAbout {
   height: auto;
   position: absolute;
   margin-left: 436px;
-  top: 12px;
+  top: 3px;
 }
 #LinkedinLogo,
 #LinkedinLogoIndex {
@@ -140,7 +146,7 @@ spanAbout {
   height: auto;
   position: absolute;
   margin-left: 386px;
-  top: 12px;
+  top: 3px;
 }
 
 .float-left {
@@ -444,6 +450,8 @@ article section figure {
   border: 1px solid red;
   border-top: 0;
   background-color: black;
+  position: relative;
+  z-index: 1;
 }
 
 #stylebox {
