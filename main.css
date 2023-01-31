@@ -7,7 +7,7 @@ body {
   min-width: 720px;
 }
 
-#particlesjs {
+#particles-js {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -16,9 +16,10 @@ body {
 .bgclass {
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
-  position: fixed;
-  pointer-events: initial;
+  position: absolute;
   z-index: 0;
 }
 
@@ -159,8 +160,8 @@ spanAbout {
 .image {
   width: 1350px;
   margin-top: 0;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
   text-align: center;
 }
 
@@ -228,7 +229,7 @@ h2 {
 }
 
 article section figure {
-  margin: 0px;
+  margin: 0;
 }
 
 #image1 {
@@ -322,7 +323,6 @@ article section figure {
 
 #text1 {
   margin-top: 120px;
-  margin-bottom: 0;
   margin-right: 25px;
   display: inline;
 }
@@ -334,7 +334,6 @@ article section figure {
 }
 #text3 {
   margin-top: 180px;
-  margin-bottom: 0;
   margin-right: 25px;
   display: inline;
 }
@@ -346,7 +345,6 @@ article section figure {
 }
 #text5 {
   margin-top: 150px;
-  margin-bottom: 0;
   margin-right: 25px;
   display: inline;
 }
@@ -358,7 +356,6 @@ article section figure {
 }
 #text7 {
   margin-top: 350px;
-  margin-bottom: 0;
   margin-right: 25px;
   display: inline;
 }
@@ -420,7 +417,6 @@ article section figure {
   z-index: 99;
   font-size: 30px;
   font-weight: bold;
-  border: none;
   outline: none;
   color: white;
   background-color: black;
@@ -460,7 +456,7 @@ article section figure {
 
 .style {
   white-space: pre;
-  margin: 0px 5px 5px 5px;
+  margin: 0 5px 5px 5px;
   padding: 2px 7px 7px 2px;
   border: 0.1px dotted red;
   border-radius: 5px;
@@ -521,7 +517,6 @@ article section figure {
   #Linkmenu {
     float: right;
     position: absolute;
-    justify-content: right;
   }
   #MyLogoIndex {
     width: 110px;
@@ -578,10 +573,10 @@ article section figure {
     width: 140%;
   }
   #figurespace {
-    margin: 0px;
+    margin: 0;
   }
   #articlespace {
-    margin: 0px;
+    margin: 0;
   }
   .container {
     height: 7653px;
