@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="A Countdown for Star Wars Jedi: Survivor" />
-    <meta name="keywords" content="Star Wars Jedi: Survivor, Star Wars Jedi, Survivor, Star Wars, Biast12, Tobias Poulsen, Countdown" />
-    <meta name="author" content="Tobias Poulsen (Biast12)" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Star Wars Survivor: Countdown</title>
-    <link rel="icon" href="img/survivor/survivor_icon.jpg" type="image/jpg" />
-    <link rel="stylesheet" href="survivor.css" />
-  </head>
-  <body>
-    <div class="container">
-      <main>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="A Countdown for Star Wars Jedi: Survivor" />
+  <meta name="keywords"
+    content="Star Wars Jedi: Survivor, Star Wars Jedi, Survivor, Star Wars, Biast12, Tobias Poulsen, Countdown" />
+  <meta name="author" content="Tobias Poulsen (Biast12)" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Wars Survivor: Countdown</title>
+  <link rel="icon" href="img/survivor/survivor_icon.jpg" type="image/jpg" />
+  <link rel="stylesheet" href="survivor.css" />
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div>
         <p id="text">
           Star Wars Jedi: Survivor <br />
           Countdown
         </p>
         <p id="countdown"></p>
-      </main>
-      <script>
-        var countDownDate = new Date("March 17, 2023 00:00:00").getTime();
+      </div>
+    </main>
+    <script>
+      var countDownDate = new Date("April 28, 2023 00:00:00").getTime();
 
-        var x = setInterval(function () {
-          var now = new Date().getTime();
-          var distance = countDownDate - now;
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-          document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countdown").innerHTML = "Star Wars Jedi: Survivor is Released!!";
-          }
-        }, 1000);
-      </script>
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "Star Wars Jedi: Survivor is Released!!";
+        }
+      }, 1000);
+    </script>
+  </div>
+  <a target="noopener" href="https://twitter.com/EAStarWars/status/1620527593580806145">
+    <div class="rdcontainer">
+      <p id="rdtext">Release Date: April 28</p>
     </div>
-  </body>
+  </a>
+</body>
+
 </html>
