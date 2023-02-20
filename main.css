@@ -8,8 +8,6 @@ body {
 }
 
 #particles-js {
-  width: 100%;
-  height: 100%;
   position: fixed;
 }
 
@@ -87,6 +85,7 @@ spanAbout {
 
 #BlackBox,
 #BlackBoxIndex {
+  display: none;
   width: auto;
   height: 759px;
   float: left;
@@ -510,6 +509,7 @@ article section figure {
   }
   #BlackBoxIndex {
     height: 1550px;
+    display: block;
   }
   #HomeImageMobile {
     border-bottom: 1px solid gray;
@@ -570,7 +570,7 @@ article section figure {
     font-style: bold;
     font-size: 37px;
     margin-left: 40px;
-    width: 140%;
+    width: 90%;
   }
   #figurespace {
     margin: 0;
@@ -578,14 +578,11 @@ article section figure {
   #articlespace {
     margin: 0;
   }
-  .container {
-    height: 7653px;
+  .bgclass {
+    display: none;
   }
-}
-
-@media (max-width: 454px) {
-  #AboutMeMobile {
-    width: 270%;
+  #container {
+    height: 7653px;
   }
 }
 
