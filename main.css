@@ -8,7 +8,11 @@ body {
 }
 
 #particles-js {
-  position: fixed;
+  height: 5505px;
+}
+
+#particles-js-about {
+  height: 100%;
 }
 
 .bgclass {
@@ -33,7 +37,7 @@ body {
 }
 
 #container {
-  height: 5380px;
+  height: 5361px;
 }
 
 .containerabout {
@@ -64,7 +68,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 spanPortfolio {
@@ -80,7 +84,7 @@ spanAbout {
   background-color: white;
   border-radius: 100px;
   position: absolute;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #BlackBox,
@@ -450,7 +454,8 @@ article section figure {
 }
 
 #stylebox {
-  float: left;
+  float: right;
+  margin-right: 5px;
 }
 
 .style {
@@ -468,9 +473,12 @@ article section figure {
   font-weight: bold;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-right: 20px;
-  float: right;
-  margin-top: 40px;
+  float: left;
+  margin: auto;
+  margin-left: 25px;
+  height: 50px;
+  line-height: 115px;
+  text-align: center
 }
 
 #HomeImageMobile {

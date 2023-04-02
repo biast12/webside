@@ -20,10 +20,6 @@
         <img id="HomeImage" src="img/loba_black_ninja_1.2.jpg" alt="HomeImage" />
         <img id="BlackBoxIndex" src="img/blackbox.png" alt="BlackBox" />
         <ul>
-          <li>
-            <spanPortfolio></spanPortfolio>
-            <a id="Portfolio" href=".">PORTFOLIO</a>
-          </li>
           <spanAbout></spanAbout>
           <li>
             <a id="About" href="aboutme">ABOUT</a>
@@ -174,7 +170,8 @@
       </script>
     </div>
   </div>
-  <footer class="footercontainer">
+  <footer class="footercontainer" id="footercontainer">
+    <p id="credit">Made By: Tobias Sloth Poulsen / Biast12</p>
     <nav id="stylebox">
       <p class="style">Edit this to edit the css of the page</p>
       <style class="style" contenteditable>.style {
@@ -182,13 +179,11 @@
           background-color: black;
         }</style>
     </nav>
-    <p id="credit">Made By: Tobias Sloth Poulsen / Biast12</p>
   </footer>
   <div class="bgclass" id="particles-js"></div>
   <script>
     const cont = document.getElementById("container");
-    const styleb = document.getElementById("stylebox");
-    const credit = document.getElementById("credit");
+    const fcont = document.getElementById("footercontainer");
     const image1 = document.getElementById("image1");
     const image2 = document.getElementById("image2");
     const image3 = document.getElementById("image3");
@@ -205,102 +200,71 @@
     const text6 = document.getElementById("text6");
     const text7 = document.getElementById("text7");
     const text8 = document.getElementById("text8");
+    const contheight = "5361px";
 
     image1.addEventListener("mouseover", function handleMouseOver() {
       text1.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5468px";
+      cont.style.height = "5577px";
     });
     image2.addEventListener("mouseover", function handleMouseOver() {
       text2.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5468px";
+      cont.style.height = "5577px";
     });
     image3.addEventListener("mouseover", function handleMouseOver() {
       text3.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5525px";
+      cont.style.height = "5634px";
     });
     image4.addEventListener("mouseover", function handleMouseOver() {
       text4.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5525px";
+      cont.style.height = "5634px";
     });
     image5.addEventListener("mouseover", function handleMouseOver() {
       text5.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5525px";
+      cont.style.height = "5634px";
     });
     image6.addEventListener("mouseover", function handleMouseOver() {
       text6.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5687px";
+      cont.style.height = "5797px";
     });
     image7.addEventListener("mouseover", function handleMouseOver() {
       text7.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5799px";
+      cont.style.height = "5909px";
     });
     image8.addEventListener("mouseover", function handleMouseOver() {
       text8.style.display = "none";
-      styleb.style.display = "none";
-      credit.style.display = "none";
-      cont.style.height = "5471px";
+      cont.style.height = "5581px";
     });
     image1.addEventListener("mouseout", function handleMouseOut() {
       text1.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image2.addEventListener("mouseout", function handleMouseOut() {
       text2.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image3.addEventListener("mouseout", function handleMouseOut() {
       text3.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image4.addEventListener("mouseout", function handleMouseOut() {
       text4.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image5.addEventListener("mouseout", function handleMouseOut() {
       text5.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image6.addEventListener("mouseout", function handleMouseOut() {
       text6.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image7.addEventListener("mouseout", function handleMouseOut() {
       text7.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
     image8.addEventListener("mouseout", function handleMouseOut() {
       text8.style.display = "block";
-      styleb.style.display = "block";
-      credit.style.display = "block";
-      cont.style.height = "5380px";
+      cont.style.height = contheight;
     });
   </script>
   <script src="scripts/particles.js"></script>

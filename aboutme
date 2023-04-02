@@ -20,11 +20,7 @@
               <spanPortfolio></spanPortfolio>
               <a id="Portfolio" href=".">PORTFOLIO</a>
             </li>
-            <spanAbout></spanAbout>
-            <li>
-              <a id="About" href="aboutme.html">ABOUT</a>
-            </li>
-            <a href="archive"> <img id="MyLogo" src="img/icon/archive_logo_Notextbw.svg" alt="MyLogo" /></a>
+            <a href="archive"> <img id="MyLogo" src="img/icon/archive_logo_bw.svg" alt="MyLogo" /></a>
             <a href="Biast12"> <img id="TwitterLogo" src="img/icon/twitterlogo_w.png" alt="TwitterLogo" /></a>
             <a href="paypal"> <img id="PaypalLogo" src="img/icon/paypallogo_w.png" alt="PaypalLogo" /></a>
             <a href="github"> <img id="GithubLogo" src="img/icon/githublogo_w.png" alt="GithubLogo" /></a>
@@ -46,10 +42,10 @@
         </div>
       </nav>
     </div>
-    <div class="bgclass" id="particles-js"></div>
+    <div class="bgclass" id="particles-js-about"></div>
   </body>
   <script src="scripts/particles.js"></script>
   <script>
-    particlesJS.load("particles-js", "scripts/particlesjs.json");
+    particlesJS.load("particles-js-about", "scripts/particlesjs.json");
   </script>
 </html>
