@@ -51,9 +51,5 @@ body {
   font-size: 20px;
   text-decoration: none;
   font-weight: bold;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-block-start: 0.4em;
 }

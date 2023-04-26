@@ -26,7 +26,7 @@
       </div>
     </main>
     <script>
-      var countDownDate = new Date("April 28, 2023 00:00:00").getTime();
+      var countDownDate = new Date("April 28, 2023 06:00:00").getTime();
 
       var x = setInterval(function () {
         var now = new Date().getTime();
@@ -45,9 +45,9 @@
       }, 1000);
     </script>
   </div>
-  <a target="noopener" href="https://twitter.com/EAStarWars/status/1620527593580806145">
+  <a target="noopener" href="https://twitter.com/EAStarWars/status/1650533979186135040">
     <div class="rdcontainer">
-      <p id="rdtext">Release Date: April 28</p>
+      <p id="rdtext">Release Date: April 28 06:00 CEST</p>
     </div>
   </a>
 </body>

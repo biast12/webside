@@ -20,11 +20,11 @@
               <spanPortfolio></spanPortfolio>
               <a id="Portfolio" href=".">PORTFOLIO</a>
             </li>
-            <a href="archive"> <img id="MyLogo" src="img/icon/archive_logo_bw.svg" alt="MyLogo" /></a>
-            <a href="Biast12"> <img id="TwitterLogo" src="img/icon/twitterlogo_w.png" alt="TwitterLogo" /></a>
-            <a href="paypal"> <img id="PaypalLogo" src="img/icon/paypallogo_w.png" alt="PaypalLogo" /></a>
-            <a href="github"> <img id="GithubLogo" src="img/icon/githublogo_w.png" alt="GithubLogo" /></a>
-            <a href="linkedin"> <img id="LinkedinLogo" src="img/icon/linkedinlogo_w.png" alt="LinkedinLogo" /></a>
+            <a href="https://biast12.site" target="_blank"> <img id="MyLogo" src="img/icon/archive_logo_bw.svg" alt="MyLogo" /></a>
+            <a href="https://twitter.com/Biast12" target="_blank"> <img id="TwitterLogo" src="img/icon/twitterlogo_w.png" alt="TwitterLogo" /></a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=RWB2QFK7CKUM2" target="_blank"> <img id="PaypalLogo" src="img/icon/paypallogo_w.png" alt="PaypalLogo" /></a>
+            <a href="https://github.com/biast12" target="_blank"> <img id="GithubLogo" src="img/icon/githublogo_w.png" alt="GithubLogo" /></a>
+            <a href="https://www.linkedin.com/in/biast12/" target="_blank"> <img id="LinkedinLogo" src="img/icon/linkedinlogo_w.png" alt="LinkedinLogo" /></a>
           </ul>
           <!--If you're reading this, then you're cute-->
           <h1 id="aboutname">Tobias Sloth Poulsen</h1>
