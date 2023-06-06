@@ -1,30 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4096 4096">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill: #262424;
-      }
-
-      .cls-3 {
-        fill: #000300;
-      }
-    </style>
-  </defs>
-  <polygon class="cls-3" points="0 0 0 4096 2048 4096 2048 3153.49 2048 613.63 2048 0 0 0"/>
-  <polyline class="cls-1" points="2048 0 4096 0 4096 4096 2048 4096"/>
-  <g>
-    <polygon class="cls-2" points="2416.13 311.3 2051.36 311.3 3955.47 3840.03 2416.13 311.3"/>
-    <polygon class="cls-1" points="783.08 3840.03 984.83 3362.07 180.73 3840.03 783.08 3840.03"/>
-    <polygon class="cls-1" points="1713.38 311.3 180.73 3840.03 2048 311.3 1713.38 311.3"/>
-    <path class="cls-2" d="M2730.68,2374.1l-441.72-1015.7c-100.4-230.37-167.31-439.79-234.24-643.97h-6.71v1659.66h682.68Z"/>
-    <polygon class="cls-2" points="3955.47 3840.03 3122.63 3355.42 3333.04 3840.03 3955.47 3840.03"/>
-    <path class="cls-1" d="M1813.78,1353.16l-441.72,1020.93h675.95V714.43h-6.66c-66.93,209.42-140.55,424.08-227.56,638.73Z"/>
-    <polygon class="cls-2" points="2048 2730.11 3122.63 3355.42 2851.14 2730.11 2048 2730.11"/>
-    <polygon class="cls-1" points="984.83 3362.07 2048 2730.11 1251.57 2730.11 984.83 3362.07"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 4096 4096" style="enable-background:new 0 0 4096 4096;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#000300;}
+	.st1{fill:#FFFFFF;}
+</style>
+<polygon class="st0" points="0,0 0,4096 2048,4096 2048,3153.5 2048,613.6 2048,0 "/>
+<polyline class="st1" points="2048,0 4096,0 4096,4096 2048,4096 "/>
+<g>
+	<polygon class="st0" points="2416.1,311.3 2051.4,311.3 3955.5,3840 	"/>
+	<polygon class="st1" points="783.1,3840 984.8,3362.1 180.7,3840 	"/>
+	<polygon class="st1" points="1713.4,311.3 180.7,3840 2048,311.3 	"/>
+	<path class="st0" d="M2730.7,2374.1L2289,1358.4c-100.4-230.4-167.3-439.8-234.2-644h-6.7v1659.7H2730.7L2730.7,2374.1z"/>
+	<polygon class="st0" points="3955.5,3840 3122.6,3355.4 3333,3840 	"/>
+	<path class="st1" d="M1813.8,1353.2l-441.7,1020.9H2048V714.4h-6.7C1974.4,923.8,1900.8,1138.5,1813.8,1353.2L1813.8,1353.2z"/>
+	<polygon class="st0" points="2048,2730.1 3122.6,3355.4 2851.1,2730.1 	"/>
+	<polygon class="st1" points="984.8,3362.1 2048,2730.1 1251.6,2730.1 	"/>
+</g>
 </svg>
