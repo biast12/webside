@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /_h5ai/
+Disallow: /_h5aiPatreon/
+Disallow: /_h5aiTest/
+
+User-agent: *
+Allow: /
