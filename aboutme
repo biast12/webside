@@ -7,32 +7,28 @@
     <title>Portfolio: Tobias Poulsen - About Me</title>
     <link rel="icon" href="img/main-icon.png" type="image/jpg" />
     <link rel="stylesheet" href="main.css" />
-	
-	<!-- Goggle -->
-    <meta name="type" content="website">
-    <meta name="title" content="Portfolio: Tobias Poulsen (Biast12) - About Me">
-    <meta name="url" content="https://biast12.info/">
-    <meta name="author" content="Biast12">
-    <meta name="description" content="Portfolio: Tobias Poulsen (Biast12)">
-    <meta name="keywords" content="Archive, Archives, Apex,Apex Legends, Legends, Respawn, Biast12, Models, Assets">
-    <meta name="image" content="https://biast12.info/img/main-icon.png">
-    <meta name="theme-color" content="#FF0000">
-    
+    <!-- Goggle -->
+    <meta name="type" content="website" />
+    <meta name="title" content="Portfolio: Tobias Poulsen (Biast12) - About Me" />
+    <meta name="url" content="https://biast12.info/" />
+    <meta name="author" content="Biast12" />
+    <meta name="description" content="Portfolio: Tobias Poulsen (Biast12)" />
+    <meta name="keywords" content="Archive, Archives, Apex,Apex Legends, Legends, Respawn, Biast12, Models, Assets" />
+    <meta name="image" content="https://biast12.info/img/main-icon.png" />
+    <meta name="theme-color" content="#FF0000" />
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Portfolio: Tobias Poulsen (Biast12) - About Me">
-    <meta property="og:url" content="https://biast12.info/">
-    <meta property="og:description" content="Portfolio: Tobias Poulsen (Biast12)">
-    <meta property="og:image" content="https://biast12.info/img/main-icon.png">
-    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfolio: Tobias Poulsen (Biast12) - About Me" />
+    <meta property="og:url" content="https://biast12.info/" />
+    <meta property="og:description" content="Portfolio: Tobias Poulsen (Biast12)" />
+    <meta property="og:image" content="https://biast12.info/img/main-icon.png" />
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:title" content="Portfolio: Tobias Poulsen (Biast12) - About Me">
-    <meta property="twitter:url" content="https://biast12.info/">
-    <meta property="twitter:description" content="Portfolio: Tobias Poulsen (Biast12)">
-    <meta property="twitter:image" content="https://biast12.info/img/main-icon.png">
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Portfolio: Tobias Poulsen (Biast12) - About Me" />
+    <meta property="twitter:url" content="https://biast12.info/" />
+    <meta property="twitter:description" content="Portfolio: Tobias Poulsen (Biast12)" />
+    <meta property="twitter:image" content="https://biast12.info/img/main-icon.png" />
   </head>
-
   <body>
     <div class="containerabout">
       <nav>
@@ -55,14 +51,7 @@
           <figure>
             <img id="MeImage" src="img/me-icon.jpg" alt="Me" />
           </figure>
-          <p id="AboutMe">
-            Hey there👋 I'm Tobias Poulsen (Biast12) ❤️<br />
-            <br />
-            i'm a 3D, Multimedia Designer and Web programmer currently<br />looking for a job, i mostly work on maintaining the Apex Legends<br />archives at: <a id="archivelink" href="https://biast12.site">biast12.site</a><br />
-            <br />
-            If you wanna contact me then Check out my Twitter <span class="underline">Biast12</span> or<br />
-            <span class="underline">Biast12Personal</span> or DM me on Discord <span class="bold">Biast12</span>
-          </p>
+          <p id="AboutMe">Hey there👋 I'm Tobias Poulsen (Biast12) ❤️<br /><br />i'm a 3D, Multimedia Designer and Web programmer currently<br />looking for a job, i mostly work on maintaining the Apex Legends<br />archives at: <a id="archivelink" href="https://biast12.site">biast12.site</a>, <a id="archivelink" href="https://lite.biast12.site">lite.biast12.site</a> and <a id="archivelink" href="https://oldbuilds.biast12.site">oldbuilds.biast12.site</a><br /><br />If you wanna contact me then Check out my Twitter <span class="underline">Biast12</span> or<br /><span class="underline">Biast12Personal</span> or DM me on Discord <span class="bold">Biast12</span></p>
         </div>
       </nav>
     </div>

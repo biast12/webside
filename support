@@ -1,7 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="refresh" content="0;url=https://discord.gg/ERFffj9Qs7">
-  <title>Archive Support server</title>
-</head>
+  <head>
+    <meta http-equiv="refresh" content="0;url=https://discord.gg/ERFffj9Qs7" />
+    <title>The Archives Support server</title>
+    <!-- Goggle -->
+    <meta name="type" content="website" />
+    <meta name="title" content="The Archives Support server" />
+    <meta name="url" content="https://biast12.info/support" />
+    <meta name="author" content="Biast12" />
+    <meta name="description" content="Redirect link to the The Archives Support server: https://discord.gg/ERFffj9Qs7" />
+    <meta name="keywords" content="Archive, Archives, Apex, Apex Legends, Legends, Respawn, Biast12, Models, Assets" />
+    <meta name="image" content="https://biast12.info/img/icon/archive_logo_bw.svg" />
+    <meta name="theme-color" content="#FF0000" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Archives Support server" />
+    <meta property="og:url" content="https://biast12.info/support" />
+    <meta property="og:description" content="Redirect link to the The Archives Support server: https://discord.gg/ERFffj9Qs7" />
+    <meta property="og:image" content="https://biast12.info/img/icon/archive_logo_bw.svg" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="The Archives Support server" />
+    <meta property="twitter:url" content="https://biast12.info/support" />
+    <meta property="twitter:description" content="Redirect link to the The Archives Support server: https://discord.gg/ERFffj9Qs7" />
+    <meta property="twitter:image" content="https://biast12.info/img/icon/archive_logo_bw.svg" />
+  </head>
 </html>

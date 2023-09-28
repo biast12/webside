@@ -6,15 +6,12 @@ body {
   background-attachment: fixed;
   min-width: 720px;
 }
-
 #particles-js {
   height: 5505px;
 }
-
 #particles-js-about {
   height: 100%;
 }
-
 .bgclass {
   top: 0;
   left: 0;
@@ -24,7 +21,6 @@ body {
   position: absolute;
   z-index: 0;
 }
-
 .container {
   margin: auto !important;
   resize: none;
@@ -35,11 +31,9 @@ body {
   position: relative;
   z-index: 1;
 }
-
 #container {
   height: 5361px;
 }
-
 .containerabout {
   margin: auto !important;
   width: 1350px;
@@ -50,7 +44,6 @@ body {
   position: relative;
   z-index: 1;
 }
-
 #Portfolio {
   color: white;
   float: left;
@@ -70,7 +63,6 @@ body {
   position: absolute;
   margin-top: 5px;
 }
-
 spanPortfolio {
   height: 4px;
   width: 175px;
@@ -86,7 +78,6 @@ spanAbout {
   position: absolute;
   margin-top: 5px;
 }
-
 #BlackBox,
 #BlackBoxIndex {
   display: none;
@@ -97,7 +88,6 @@ spanAbout {
   border-right: 1px solid gray;
   top: 0;
 }
-
 #HomeImage {
   width: 1350px;
   height: auto;
@@ -111,7 +101,6 @@ spanAbout {
   position: absolute;
   top: 0;
 }
-
 #MyLogo,
 #MyLogoIndex {
   width: 50px;
@@ -152,14 +141,12 @@ spanAbout {
   margin-left: 386px;
   top: 3px;
 }
-
 .float-left {
   float: left;
 }
 .float-right {
   float: right;
 }
-
 .image {
   width: 1350px;
   margin-top: 0;
@@ -167,11 +154,9 @@ spanAbout {
   margin-right: 0;
   text-align: center;
 }
-
 article {
   margin-top: 708px;
 }
-
 div main article section a {
   font-size: 35px;
   color: white;
@@ -223,10 +208,10 @@ h2 {
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: absolute;
-  font-style: bold;
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 420px;
   margin-left: 20px;
+  line-height: 1.5;
 }
 article section figure {
   margin: 0;
@@ -241,7 +226,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #image2 {
   width: 863px;
   float: right;
@@ -253,7 +237,6 @@ article section figure {
   float: right !important;
   width: 1350px;
 }
-
 #image3 {
   width: 863px;
   float: left;
@@ -264,7 +247,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #image4 {
   width: 863px;
   float: right;
@@ -275,7 +257,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #image5 {
   width: 863px;
   float: left;
@@ -286,7 +267,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #image6 {
   width: 863px;
   float: right;
@@ -297,7 +277,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #image7 {
   width: 863px;
   float: left;
@@ -308,7 +287,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #image8 {
   width: 1009px;
   float: right;
@@ -319,7 +297,6 @@ article section figure {
   text-align: center;
   width: 1350px;
 }
-
 #text1 {
   margin-top: 120px;
   margin-right: 25px;
@@ -364,7 +341,6 @@ article section figure {
   margin-left: 20px;
   position: absolute;
 }
-
 #MyLogoFooter {
   width: 50px;
   height: auto;
@@ -405,7 +381,6 @@ article section figure {
   left: 200px;
   bottom: 225px;
 }
-
 #totop {
   width: 7%;
   height: 7%;
@@ -429,14 +404,12 @@ article section figure {
   color: white;
   background-color: red;
 }
-
 #Sidebars {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 20px;
   width: 100%;
 }
-
 .footercontainer {
   margin: auto !important;
   padding-top: 5px;
@@ -448,12 +421,10 @@ article section figure {
   position: relative;
   z-index: 1;
 }
-
 #stylebox {
   float: right;
   margin-right: 5px;
 }
-
 .style {
   white-space: pre;
   margin: 0 5px 5px 5px;
@@ -462,7 +433,6 @@ article section figure {
   border-radius: 5px;
   display: block;
 }
-
 #credit {
   color: white;
   text-shadow: 3px 3px #ff000080;
@@ -474,9 +444,8 @@ article section figure {
   margin-left: 25px;
   height: 50px;
   line-height: 115px;
-  text-align: center
+  text-align: center;
 }
-
 #HomeImageMobile {
   display: none;
 }
@@ -486,13 +455,11 @@ article section figure {
 #AboutMeMobile {
   display: none;
 }
-
 @media (max-width: 1821px) {
   #Sidebars {
     display: none;
   }
 }
-
 @media (max-width: 720px) {
   #About,
   spanAbout,
@@ -589,11 +556,9 @@ article section figure {
     height: 7653px;
   }
 }
-
 .animationImage {
   animation: scaling-image-animation 3s ease;
 }
-
 @keyframes scaling-image-animation {
   0% {
     transform: scale(0.1);
